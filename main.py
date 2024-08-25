@@ -2,15 +2,17 @@ from perceptron import Perceptron
 
 # data
 inputs = [
-    [0,1], #1
-    [1,0], #1
-    [0,0]  #0
+    [0,1], #0
+    [1,0], #0
+    [0,0],  #0
+    [1,1]  #1
 ]
 
 outputs= [
-    1,
-    1,
-    0
+    0,
+    0,
+    0,
+    1
 ]
 neurona = Perceptron(2, 0.1)
 
